@@ -1,0 +1,34 @@
+
+
+/*Escondemos el boton antes de comprobar campos*/
+input[type="submit"]{
+    
+    visibility: hidden;
+   
+}
+
+.body input{
+    width: 100%;
+}
+
+form i{
+    
+    font-size:120px;
+    color:royalblue;
+    transition:none;
+}
+
+input[type="submit"], button{
+    
+   background-color: royalblue;
+   color: white;
+  
+
+}
+
+form{
+    
+   -webkit-box-shadow: inset 0px -12px 56px 13px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px -12px 56px 13px rgba(0,0,0,0.75);
+    box-shadow: inset 0px -12px 56px 13px rgba(0,0,0,0.75);
+}

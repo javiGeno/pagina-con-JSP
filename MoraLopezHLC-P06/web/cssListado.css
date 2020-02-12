@@ -1,0 +1,41 @@
+
+body{
+    
+    align-items: center;
+}
+
+tr a i{
+    
+    font-size:20px;
+    margin: 2%;
+}
+ #table{
+    transition: all 1s; 
+    opacity: 0;
+    
+}
+
+table{
+   
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: cadetblue;
+    font-size: 30px; 
+    
+    
+}
+
+table tr th{
+    
+    text-align: center;
+    background-color: darkblue;
+    padding:2%;
+}
+
+table tr td:last-child{
+    
+   background-color: darkcyan;
+   text-align: center;
+   padding: 0%;
+   
+}

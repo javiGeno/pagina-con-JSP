@@ -1,0 +1,229 @@
+
+/*--------------------------comun todos las paginas-------------------------------------*/
+body{
+    background-color:background;
+}
+
+
+header, footer {
+border-radius: 10px;
+border-style: solid;
+width: 80%;
+text-align: center;
+margin-left: 9%;
+margin-top: 2%;
+font-family: fantasy ;
+letter-spacing: 2px;
+word-spacing: 10px;  
+font-weight: bold; 
+font-size: 30px; 
+background: scroll; 
+-webkit-background-clip: text; 
+-moz-background-clip: text; 
+background-clip: text; 
+color: transparent; 
+text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+}
+/*------------------------------------------------------------------------------------------------*/
+nav{
+   
+    width: 80%;
+    margin-left: 9%;
+    
+}
+
+nav ul{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    list-style: none;
+    display: inline-flex;
+    
+}
+
+i{
+    font-size:180px;
+    color:white;
+    transition: color 1s;
+}
+
+.enlaces:hover{
+    color:sandybrown;
+}
+
+.volver{
+    font-size: 120px;
+}
+
+li:last-child{
+    margin-left: 35%;
+   
+}
+li:first-child{
+    margin-right: 25%;
+    margin-left: 55%;
+    
+}
+
+/*RESPONSIVE*/
+@media (min-width: 500px) {  
+   
+   
+    nav ul{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    list-style: none;
+    display: block;
+    
+    }
+
+    i{
+    font-size:80px;
+    color:white;
+    }
+
+    nav ul{
+        margin-top: 15%;
+        margin-bottom: 15%;
+        list-style: none;
+        
+    
+    }
+
+    i{
+        font-size:100px;
+        color:white;
+    }
+
+    li:last-child{
+        margin-left: 30%;
+   
+    }
+    
+    li:first-child{
+       
+        margin-left: 30%;
+        margin-bottom: 10%;
+    }
+    
+@media (min-width: 768px) {  
+    
+    nav ul{
+        margin-top: 15%;
+        margin-bottom: 15%;
+        list-style: none;
+        display: inline-flex;
+    
+    }
+
+    i{
+        font-size:80px;
+        color:white;
+    }
+
+    nav ul{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        list-style: none;
+        
+    
+    }
+
+    i{
+        font-size:100px;
+        color:white;
+    }
+
+    li:last-child{
+        margin-left: 35%;
+        
+    }
+    
+    li:first-child{
+       
+        margin-left: 35%;
+         margin-left: 55%;
+    }
+   
+}  
+    
+@media (min-width: 992px) {  
+    
+    nav ul{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        list-style: none;
+        display: inline-flex;
+    
+    }
+
+    i{
+        font-size:80px;
+        color:white;
+    }
+
+    nav ul{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        list-style: none;
+        
+    
+    }
+
+    i{
+        font-size:160px;
+        color:white;
+    }
+
+    li:last-child{
+        margin-left: 35%;
+        
+    }
+    
+    li:first-child{
+       
+        margin-left: 35%;
+         margin-left: 55%;
+    }
+   
+}  
+    
+@media (min-width: 1200px) {  
+   
+    nav ul{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        list-style: none;
+        display: inline-flex;
+    
+    }
+
+    i{
+        font-size:80px;
+        color:white;
+    }
+
+    nav ul{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        list-style: none;
+        
+    
+    }
+
+    i{
+        font-size:180px;
+        color:white;
+    }
+
+    li:last-child{
+        margin-left: 35%;
+        
+    }
+    
+    li:first-child{
+       
+        margin-left: 35%;
+         margin-left: 55%;
+    }
+
+}
